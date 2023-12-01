@@ -8,14 +8,18 @@ const Stack = createNativeStackNavigator();
 export default App = () => {
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Login">
+            <Stack.Navigator initialRouteName="Login" screenOptions={{
+              contentStyle: {
+                backgroundColor: "#061c2f"
+              }
+            }}>
                 <Stack.Screen name="Bienvenido" component={Login} options={{
                   title: "ITSQMET",
                   headerStyle: {
-                    backgroundColor: "#fff",
+                    backgroundColor: "#061c2f",
                     
                   },
-                  headerTintColor: "#061c2f",
+                  headerTintColor: "#fff",
                   headerTitleStyle: {
                     fontWeight: "bold"
                   },

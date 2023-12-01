@@ -7,7 +7,7 @@ const lightBlue = "#f1f4ff";
 
 export default {
   darkText: dark,
-  text: black,
+  text: white,
   background: white,
   primary: blue,
   onPrimary: white,
